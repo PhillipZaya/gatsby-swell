@@ -15,8 +15,8 @@ const Header = () => {
         </div>
         <div className={show ? 'nav-links show-links' : 'nav-links'}>
         <Link to='/' className='nav-link' activeClassName='active-link' onClick={()=> setShow(false)}>home</Link>
-        <Link to='/recipes' className='nav-link' activeClassName='active-link' onClick={()=> setShow(false)}>recipes</Link>
-        <Link to='/tags' className='nav-link' activeClassName='active-link' onClick={()=> setShow(false)}>tags</Link>
+        <Link to='/recipes' className='nav-link' activeClassName='active-link' onClick={()=> setShow(false)}>DogBeds</Link>
+        <Link to='/tags' className='nav-link' activeClassName='active-link' onClick={()=> setShow(false)}>Blankets</Link>
         <Link to='/about' className='nav-link' activeClassName='active-link' onClick={()=> setShow(false)}>about</Link>
         <div className='nav-link contact-link'>
         <Link to='/contact' className='btn'>contact</Link>
