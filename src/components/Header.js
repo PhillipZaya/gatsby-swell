@@ -5,22 +5,23 @@ const Header = () => {
     const [show,setShow] = useState(false)
   return (
     <nav className='navbar'>
-    <div className='nav-center'>
+      <div className='nav-center'>
       <div className='nav-header'>
 <Link to='/'>
-<h1>Barney</h1>
+<img src="https://cdn.shopify.com/s/files/1/0092/3136/8270/files/barneylogo_180x.png?v=1613738791" alt='Barney logo' />
 </Link>
-<button className='nav-btn' onClick={()=> setShow(!show)}>
-</button>
-        </div>
+</div>
         <div className={show ? 'nav-links show-links' : 'nav-links'}>
         <Link to='/' className='nav-link' activeClassName='active-link' onClick={()=> setShow(false)}>home</Link>
-        <Link to='/DogBeds' className='nav-link' activeClassName='active-link' onClick={()=> setShow(false)}>DogBeds</Link>
+        <Link to='/Dogbeds' className='nav-link' activeClassName='active-link' onClick={()=> setShow(false)}>DogBeds</Link>
         <Link to='/Blankets' className='nav-link' activeClassName='active-link' onClick={()=> setShow(false)}>Blankets</Link>
-        <Link to='/about' className='nav-link' activeClassName='active-link' onClick={()=> setShow(false)}>about</Link>
-        <Link to='/contact' className='nav-link' activeClassName='active-link' onClick={()=> setShow(false)}>contact</Link>
+        <Link to='/About' className='nav-link' activeClassName='active-link' onClick={()=> setShow(false)}>about</Link>
+        <Link to='/Contact' className='nav-link' activeClassName='active-link' onClick={()=> setShow(false)}>contact</Link>
         <div className='nav-link contact-link'>
-        <Link to='/login' className='btn'>Login</Link>
+        <Link to='/Login' className='btn'>Login/Register</Link>
+        </div>
+        <div className='nav-link contact-link'>
+        <Link to='/Card' className='btn'>Card</Link>
         </div>
         </div>
         </div>
