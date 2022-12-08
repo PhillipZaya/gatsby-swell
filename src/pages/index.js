@@ -8,7 +8,7 @@ export default function Home() {
     <main className='page'>
       <header className='hero'>
    <StaticImage
-   src='../assets/images/i.shgcdn-1.webp'
+   src='../assets/images/BarneyBedShoot_compilation_L_1728x.jpg'
           alt='eggs'
           className='hero-img'
           placeholder='tracedSVG'
