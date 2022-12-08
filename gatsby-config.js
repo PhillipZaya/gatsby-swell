@@ -10,14 +10,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Barney',
-    description: 'Nice and clean dog beds site',
-    author: '@Phillip',
-    person: {name: 'Phillip', age: 31},
-    simpleData: ['item 1', 'item 2'],
-    complexData: [
-      { name: 'Phillip', age: 31 },
-      { name: 'Jose', age: 33 }
-    ],
+    author: '@Phillip'
   },
   plugins: [
     `gatsby-plugin-styled-components`,

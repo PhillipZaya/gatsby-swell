@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from '../components/Layout'
 
-const Card = () => {
+const Cart = () => {
   return (
     <Layout>
       <main className='page'>
@@ -22,4 +22,4 @@ const Card = () => {
   )
 }
 
-export default Card
+export default Cart
