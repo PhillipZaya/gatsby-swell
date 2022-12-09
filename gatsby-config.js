@@ -7,8 +7,6 @@
 /**
  * @type {import('gatsby').GatsbyConfig}
  */
-
-const path = require(`path`)
 module.exports = {
   plugins: [
     `gatsby-plugin-styled-components`,
@@ -16,11 +14,15 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     {
-      resolve: `gatsby-source-graphql`,
+      resolve: "gatsby-source-graphql",
       options: {
-        typeName: `excedetest`,
-        fieldName: `excedetest`,
-        url: `https://excedetest.swell.store/graphql`,
+        typeName: "Swell",
+        fieldName: "swelltest",
+        url: "https://excedetest.swell.store/graphql",
+        
+        headers : {
+          Authorization: "pk_aTyyvBu01nCfmx10uYkljQbrOjrpZwpP",
+        }
       },
     },
   ],
