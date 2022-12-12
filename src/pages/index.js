@@ -1,7 +1,7 @@
 import * as React from "react"
 import Layout from "../components/Layout"
 import {StaticImage} from 'gatsby-plugin-image'
-import FetchData from "../components/FetchData"
+import AllProducts from "../components/AllProducts"
 
 export default function Home() {
   return (
@@ -15,9 +15,8 @@ export default function Home() {
           placeholder='tracedSVG'
           layout='fullWidth'
   ></StaticImage>
-  <h1>Products</h1>
   </header>
-  <FetchData />
+  <AllProducts />
   </main>
   </Layout>
   )
