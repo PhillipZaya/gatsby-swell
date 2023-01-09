@@ -13,8 +13,7 @@ const Header = () => {
 </div>
         <div className={show ? 'nav-links show-links' : 'nav-links'}>
         <Link to='/' className='nav-link' activeClassName='active-link' onClick={()=> setShow(false)}>home</Link>
-        <Link to='/Dogbeds' className='nav-link' activeClassName='active-link' onClick={()=> setShow(false)}>DogBeds</Link>
-        <Link to='/Blankets' className='nav-link' activeClassName='active-link' onClick={()=> setShow(false)}>Blankets</Link>
+        <Link to='/MediumBed' className='nav-link' activeClassName='active-link' onClick={()=> setShow(false)}>MediumBed</Link>
         <Link to='/About' className='nav-link' activeClassName='active-link' onClick={()=> setShow(false)}>about</Link>
         <Link to='/Contact' className='nav-link' activeClassName='active-link' onClick={()=> setShow(false)}>contact</Link>
         <div className='nav-link contact-link'>

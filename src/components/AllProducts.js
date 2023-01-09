@@ -37,7 +37,7 @@ const AllProducts = () => {
   const products = data.swelltest.products.results
   return (
     <section className='recipes-container'>
-      <h4>all Products</h4>
+      <h4>Products</h4>
       <TagsList products={products} />
       <ProductsList products={products} />
     </section>
